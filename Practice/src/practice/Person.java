@@ -18,11 +18,13 @@ public class Person {
 	
 	public String women(String name, String age, String kid)
 	{
+		System.out.println("return name + age + kid");
 		return name + age + kid;
 	}
 	
 	public String kid(String name, String age, String play)
 	{
+		System.out.println("return name + age + play");
 		return name + age + play;
 	}
 	
